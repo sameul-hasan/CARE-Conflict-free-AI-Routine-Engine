@@ -17,6 +17,11 @@ flowchart LR
     G --> H["8. Export & Push<br/>(Export/*.mp4 -> GitHub)"]
 ```
 
+> [!IMPORTANT]
+> **Hard Style & Voice Rules:**
+> - **Light Theme Only:** Always use the warm off-white `#F7F5F0` dot-grid canvas, `#FFFFFF` 3D cards, `#18181B` text, and `#EA580C` accents. Never use a dark theme.
+> - **English-Only Voiceovers:** Synthesize voiceovers in English (`en-US-BrianMultilingualNeural`) and align captions with `scripts/whisper_align.py`.
+
 ---
 
 ## 2. Directory Structure
